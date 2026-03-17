@@ -13,3 +13,14 @@ coverage/
 .logs/
 __pycache__/
 state.json
+
+# Beads (local runtime state)
+.beads/
+
+# bv (beads viewer) local config and caches
+.bv/
+
+# Playwright
+test-results/
+playwright-report/
+bv-pages-screenshot.png
