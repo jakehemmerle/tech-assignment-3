@@ -6,3 +6,10 @@ dist/
 coverage/
 *.log
 .DS_Store
+
+# Gas Town (added by gt)
+.runtime/
+.claude/
+.logs/
+__pycache__/
+state.json
