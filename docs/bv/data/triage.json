@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-17T11:32:55.660866-05:00",
+    "phase2_ready": true,
+    "issue_count": 25,
+    "compute_time_ms": 0
+  },
+  "quick_ref": {
+    "open_count": 20,
+    "actionable_count": 5,
+    "blocked_count": 15,
+    "in_progress_count": 0,
+    "top_picks": [
+      {
+        "id": "p3-p3m",
+        "title": "M1.0: Scaffold and Test Infrastructure",
+        "score": 0.36769925758282196,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): p3-m75",
+          "📊 High centrality in dependency graph (PageRank: 97%)",
+          "⚡ Low effort, high impact - good starting point",
+          "✅ Currently unclaimed - available for work"
+        ],
+        "unblocks": 1
+      },
+      {
+        "id": "p3-wisp-ldbv",
+        "title": "mol-polecat-work",
+        "score": 0.16138688902850526,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): p3-px3",
+          "✅ Currently unclaimed - available for work"
+        ],
+        "unblocks": 1
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "p3-m75",
+      "title": "M1.1: Points Engine — Calculation and Ledger",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.5607318055627887,
+      "breakdown": {
+        "pagerank": 0.22,
+        "betweenness": 0.14285714285714288,
+        "blocker_ratio": 0.13,
+        "staleness": 0.0011426632111496914,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.07525,
+        "urgency": 0.004664950885193214,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 1,
+        "betweenness_norm": 0.7142857142857143,
+        "blocker_ratio_norm": 1,
+        "staleness_norm": 0.022853264222993826,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.7525,
+        "urgency_norm": 0.04664950885193214,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 7), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-p3m first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): p3-dyj, p3-r5n",
+        "🔀 Critical path bottleneck (betweenness: 71%)",
+        "📊 High centrality in dependency graph (PageRank: 100%)",
+        "⚡ Low effort, high impact - good starting point",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by p3-p3m - complete that first"
+      ],
+      "unblocks_ids": [
+        "p3-dyj",
+        "p3-r5n"
+      ],
+      "blocked_by": [
+        "p3-p3m"
+      ]
+    },
+    {
+      "id": "p3-r5n",
+      "title": "M1.2: Tier Progression",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.3749809497796466,
+      "breakdown": {
+        "pagerank": 0.12296648965963354,
+        "betweenness": 0.08095238095238094,
+        "blocker_ratio": 0.13,
+        "staleness": 0.0011422774086805557,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.06825,
+        "urgency": 0.004663451685500403,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.5589385893619706,
+        "betweenness_norm": 0.4047619047619047,
+        "blocker_ratio_norm": 1,
+        "staleness_norm": 0.022845548173611112,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.6825,
+        "urgency_norm": 0.04663451685500403,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 6), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-m75 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): p3-jjs",
+        "📊 High centrality in dependency graph (PageRank: 56%)",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by p3-m75 - complete that first"
+      ],
+      "unblocks_ids": [
+        "p3-jjs"
+      ],
+      "blocked_by": [
+        "p3-m75"
+      ]
+    },
+    {
+      "id": "p3-p3m",
+      "title": "M1.0: Scaffold and Test Infrastructure",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.36769925758282196,
+      "breakdown": {
+        "pagerank": 0.21389909239550897,
+        "betweenness": 0,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.0011433190753472222,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.08224999999999999,
+        "urgency": 0.004667499410895198,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.9722686017977681,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.022866381506944443,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.8224999999999999,
+        "urgency_norm": 0.046674994108951984,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 8), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Quick win - start here for fast progress",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): p3-m75",
+        "📊 High centrality in dependency graph (PageRank: 97%)",
+        "⚡ Low effort, high impact - good starting point",
+        "✅ Currently unclaimed - available for work"
+      ],
+      "unblocks_ids": [
+        "p3-m75"
+      ]
+    },
+    {
+      "id": "p3-pl1",
+      "title": "M1: Minimum / Pass",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.31290470837264744,
+      "breakdown": {
+        "pagerank": 0.046399497476913146,
+        "betweenness": 0.2,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.0011436855876929013,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04725,
+        "urgency": 0.004668923524622115,
+        "risk": 0.011354143466934854,
+        "pagerank_norm": 0.21090680671324158,
+        "betweenness_norm": 1,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.022873711753858026,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.4725,
+        "urgency_norm": 0.04668923524622115,
+        "risk_norm": 0.11354143466934853,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.31180478223116176,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.11354143466934853,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-24i first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): p3-9zh",
+        "🔀 Critical path bottleneck (betweenness: 100%)",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 8 items - need to clear dependencies"
+      ],
+      "unblocks_ids": [
+        "p3-9zh"
+      ],
+      "blocked_by": [
+        "p3-24i",
+        "p3-dyj",
+        "p3-jjs",
+        "p3-m75",
+        "p3-p3m",
+        "p3-q1c",
+        "p3-r5n",
+        "p3-v5u"
+      ]
+    },
+    {
+      "id": "p3-dyj",
+      "title": "M1.3: Leaderboard (On-Read)",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.24385714149234833,
+      "breakdown": {
+        "pagerank": 0.06299358467804655,
+        "betweenness": 0.0380952380952381,
+        "blocker_ratio": 0.065,
+        "staleness": 0.0011419301864583334,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.06125,
+        "urgency": 0.004662102363388138,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.28633447580930255,
+        "betweenness_norm": 0.19047619047619047,
+        "blocker_ratio_norm": 0.5,
+        "staleness_norm": 0.022838603729166667,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.6124999999999999,
+        "urgency_norm": 0.046621023633881375,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 5), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-m75 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): p3-842",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by p3-m75 - complete that first"
+      ],
+      "unblocks_ids": [
+        "p3-842"
+      ],
+      "blocked_by": [
+        "p3-m75"
+      ]
+    },
+    {
+      "id": "p3-jjs",
+      "title": "M1.4: Notifications — Create and List",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.22658971421701055,
+      "breakdown": {
+        "pagerank": 0.05393315857081493,
+        "betweenness": 0.04285714285714286,
+        "blocker_ratio": 0.065,
+        "staleness": 0.0011415443839891976,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.06125,
+        "urgency": 0.004660603069496622,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.24515072077643152,
+        "betweenness_norm": 0.21428571428571427,
+        "blocker_ratio_norm": 0.5,
+        "staleness_norm": 0.022830887679783952,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.6124999999999999,
+        "urgency_norm": 0.046606030694966216,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 5), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-r5n first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): p3-fob",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by p3-r5n - complete that first"
+      ],
+      "unblocks_ids": [
+        "p3-fob"
+      ],
+      "blocked_by": [
+        "p3-r5n"
+      ]
+    },
+    {
+      "id": "p3-n71",
+      "title": "M2.3: Monthly Tier Reset",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.17746316993157982,
+      "breakdown": {
+        "pagerank": 0.03574016592916243,
+        "betweenness": 0.0619047619047619,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.0011391716988040123,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04725,
+        "urgency": 0.004651381321909476,
+        "risk": 0.009500000000000001,
+        "pagerank_norm": 0.16245529967801106,
+        "betweenness_norm": 0.3095238095238095,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.022783433976080243,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.4725,
+        "urgency_norm": 0.04651381321909476,
+        "risk_norm": 0.095,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.25,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.095,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-q1c first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies"
+      ],
+      "blocked_by": [
+        "p3-q1c",
+        "p3-r5n"
+      ]
+    },
+    {
+      "id": "p3-wisp-ldbv",
+      "title": "mol-polecat-work",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.16138688902850526,
+      "breakdown": {
+        "pagerank": 0.040641905175561786,
+        "betweenness": 0,
+        "blocker_ratio": 0.021666666666666667,
+        "staleness": 0.0000026940753472222223,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04025,
+        "urgency": 0.000011544704195237676,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.18473593261618995,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.16666666666666666,
+        "staleness_norm": 0.000053881506944444445,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.00011544704195237676,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): p3-px3",
+        "✅ Currently unclaimed - available for work"
+      ],
+      "unblocks_ids": [
+        "p3-px3"
+      ]
+    },
+    {
+      "id": "p3-q1c",
+      "title": "M1.6: Admin Endpoints",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.15489560292746796,
+      "breakdown": {
+        "pagerank": 0.04208810423769383,
+        "betweenness": 0.023809523809523808,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.0011407920691743826,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.05425,
+        "urgency": 0.004657679303800344,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.19130956471679014,
+        "betweenness_norm": 0.11904761904761904,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.02281584138348765,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.5425,
+        "urgency_norm": 0.04657679303800344,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 4), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-m75 first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies"
+      ],
+      "blocked_by": [
+        "p3-m75",
+        "p3-r5n"
+      ]
+    },
+    {
+      "id": "p3-842",
+      "title": "M2.2: Leaderboard — Self-Rank and Write-Through",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.15054821897333406,
+      "breakdown": {
+        "pagerank": 0.03574016592916243,
+        "betweenness": 0.03095238095238095,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.001139673242013889,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04725,
+        "urgency": 0.004653330790729504,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.16245529967801106,
+        "betweenness_norm": 0.15476190476190474,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.02279346484027778,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.4725,
+        "urgency_norm": 0.04653330790729504,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on p3-dyj first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by p3-dyj - complete that first"
+      ],
+      "blocked_by": [
+        "p3-dyj"
+      ]
+    }
+  ],
+  "quick_wins": [
+    {
+      "id": "p3-wisp-ldbv",
+      "title": "mol-polecat-work",
+      "score": 0.8,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "p3-px3"
+      ]
+    },
+    {
+      "id": "p3-m75",
+      "title": "M1.1: Points Engine — Calculation and Ledger",
+      "score": 0.6339850002884626,
+      "reason": "Unblocks 2 items",
+      "unblocks_ids": [
+        "p3-dyj",
+        "p3-r5n"
+      ]
+    },
+    {
+      "id": "p3-p3m",
+      "title": "M1.0: Scaffold and Test Infrastructure",
+      "score": 0.6000000000000001,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "p3-m75"
+      ]
+    },
+    {
+      "id": "p3-pl1",
+      "title": "M1: Minimum / Pass",
+      "score": 0.6000000000000001,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "p3-9zh"
+      ]
+    },
+    {
+      "id": "p3-puh",
+      "title": "Set up GitHub Pages with bv beads viewer",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    }
+  ],
+  "blockers_to_clear": [
+    {
+      "id": "p3-m75",
+      "title": "M1.1: Points Engine — Calculation and Ledger",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "p3-dyj",
+        "p3-r5n"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "p3-p3m"
+      ]
+    },
+    {
+      "id": "p3-dyj",
+      "title": "M1.3: Leaderboard (On-Read)",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "p3-842"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "p3-m75"
+      ]
+    },
+    {
+      "id": "p3-jjs",
+      "title": "M1.4: Notifications — Create and List",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "p3-fob"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "p3-r5n"
+      ]
+    },
+    {
+      "id": "p3-p3m",
+      "title": "M1.0: Scaffold and Test Infrastructure",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "p3-m75"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p3-pl1",
+      "title": "M1: Minimum / Pass",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "p3-9zh"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "p3-24i",
+        "p3-dyj",
+        "p3-jjs",
+        "p3-m75",
+        "p3-p3m",
+        "p3-q1c",
+        "p3-r5n",
+        "p3-v5u"
+      ]
+    }
+  ],
+  "project_health": {
+    "counts": {
+      "total": 25,
+      "open": 20,
+      "closed": 5,
+      "blocked": 15,
+      "actionable": 5,
+      "by_status": {
+        "closed": 5,
+        "hooked": 2,
+        "open": 18
+      },
+      "by_type": {
+        "epic": 22,
+        "task": 3
+      },
+      "by_priority": {
+        "1": 2,
+        "2": 23
+      }
+    },
+    "graph": {
+      "node_count": 25,
+      "edge_count": 34,
+      "density": 0.056666666666666664,
+      "has_cycles": false,
+      "phase2_ready": true
+    },
+    "velocity": {
+      "closed_last_7_days": 5,
+      "closed_last_30_days": 5,
+      "avg_days_to_close": 0.0012222222222222222,
+      "weekly": [
+        {
+          "week_start": "2026-03-16T00:00:00Z",
+          "closed": 5
+        },
+        {
+          "week_start": "2026-03-09T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-03-02T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-02-23T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-02-16T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-02-09T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-02-02T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-26T00:00:00Z",
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "CI=1 br update p3-m75 --status in_progress --json",
+    "show_top": "CI=1 br show p3-m75 --json",
+    "list_ready": "CI=1 br ready --json",
+    "list_blocked": "CI=1 br blocked --json",
+    "refresh_triage": "bv --robot-triage"
+  }
+}
